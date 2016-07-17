@@ -1,0 +1,27 @@
+{
+  "name": "InstagramAppExample",
+  "scripts": {
+  },
+  "env": {
+    "instagram_client_id": {
+      "required": true
+    },
+    "Instagram_client_secret": {
+      "required": true
+    },
+    "MONGOLAB_URI": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "mongolab"
+  ],
+  "buildpacks": [
+
+  ]
+}
